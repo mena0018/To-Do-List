@@ -40,7 +40,7 @@ function afficherListe(todo) {
     btn.addEventListener('click', supprimerTache);
 
     const img = document.createElement('img');
-    img.setAttribute('src', './ressources/fermer.svg');
+    img.setAttribute('src', './assets/img/fermer.svg');
     btn.appendChild(img);
     item.appendChild(btn);
 
